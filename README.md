@@ -1016,7 +1016,7 @@ end
 - `aws_secret_access_key`, `aws_access_key` and optionally `aws_session_token` - required, unless using IAM roles for authentication.
 - `region` - The AWS region containing the group. Default: The current region of the node when running in AWS or us-east-1 if the node is not in AWS.
 - `name` - The name of the security group to manage
-- `description` - The security group description
+- `description` - The security group description - required
 - `vpc_id` - The vpc_id where the security group should be created
 
 # Tags

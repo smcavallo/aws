@@ -13,7 +13,7 @@ provides :aws_security_group
 
 # => Define the Resource Properties
 property :security_group_name, String, name_property: true
-property :description, String, default: 'created by chef'
+property :description, String, required: true
 property :vpc_id, String, required: true
 
 # Ingress/Egress rules
